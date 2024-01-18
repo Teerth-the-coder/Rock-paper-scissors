@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    text-align: center;
+}
+.options{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 5px;
+    /* display: none; */
+    border: 5px black solid;
+    border-radius: 30%;
+
+}
+h4{
+    font-size: 40px;
+}
+button{
+    width: 100px;
+    height: 25px;
+    color: aquamarine;
+    background-color: aqua;
+    cursor: pointer;
+}
+.pick{
+    display: inline-block;
+    margin: 20px;
+}
+#eval{
+    font-size: 50px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock paper scissors game</h1>
+    <span class="options">
+        <!-- <button onclick="rock()"> -->
+        <img id="opo" onclick="rock()" class="options" src="https://cdn.icon-icons.com/icons2/390/PNG/512/rock_39413.png" height="300px">
+    <!-- </button> -->
+    <!-- <button onclick="paper()"> -->
+        <img id="opo2" onclick="paper()" class="options" src="https://media.geeksforgeeks.org/wp-content/uploads/20210705223645/paper.jpeg" height="300px">
+    <!-- </button> -->
+    <!-- <button onclick="scissors()"> -->
+        <img id="opo3" onclick="scissors()" class="options" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SGOugbk6C36u4GucBrAxllANTKtW_QkIAQ&usqp=CAU" height="300px">
+    <!-- </button> -->
+    </span>
+    <h2 id="eval">Click the button that says start</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span class="scores">
+        <h2 id="player-score" style="color: #50C878;">Your score:</h2>       
+        <h2 id="bot-score" style="color: #FF0000;">Bot score:</h2>
+    </span>
+    <span>
+    <span class="pick">
+        <img src="https://img.freepik.com/premium-photo/modern-abstract-background_694282-896.jpg" id="you" height="200px">
+        <br>
+        <h4 >Your pick</h4>
+    </span>
+    <span class="pick">
+        <img src="https://img.freepik.com/premium-photo/modern-abstract-background_694282-896.jpg" id="bot" height="200px">
+        <br>
+        <h4>Bot pick</h4>
+    </span>
+</span>
+    
+    <br>
+    <button onclick="start()">Start playing</button>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
